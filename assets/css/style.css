@@ -1,0 +1,219 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing:content-box;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+.top_banner {
+    display: flex;
+    width: 100%;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+
+}
+.top_banner a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 30px;
+
+}
+.top_banner img {
+    width: 110px;
+    height: 30px;
+    padding:10px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 7%;
+    padding-right: 7%; 
+}
+
+.logo img {
+    width:200px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.banner {
+    flex:2;
+    display:flex;
+    flex-direction: column;
+    
+}
+.area_cliente {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+.menu_infos {
+    flex:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+}
+.menu_infos .pagamento {
+    list-style-image: url('pagamento.png');
+
+}
+.menu_infos .lojas {
+    list-style-image: url('lojas.png')
+}
+.menu_infos .atendimento {
+    list-style-image: url('atendimento.png')
+}
+.menu_infos .troca {
+    list-style-image: url('troca.png')
+}
+.menu_infos ul {
+    padding-right: 15px;
+}
+.menu_infos ul li {
+    padding-right: 30px; 
+}
+.login {
+    flex:1;
+    text-align: end;
+}
+.login img {
+    width: 24px;
+    padding-top: 10px;
+}
+.login a {
+    padding-right:5px;
+    text-decoration: none;
+    color:#000000;
+}
+.busca {
+    display:flex;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.busca img {
+    padding-left: 5px;
+}
+input {
+    border:none;
+    padding-left: 5px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+.menu_categorias {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+nav ul {
+    list-style: none; 
+}
+nav ul li {
+    /*padding-right:20px;*/
+    width: max-content;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+article {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bf_title {
+    border: 10px #ffffff solid;
+    width: fit-content;
+    font-size: 60px;
+    padding: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+.bf_time {
+    margin-top: 30px;
+    font-size: 25px;
+
+}
+.bf_desc {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    width: 300px;
+    text-align: justify;
+}
+aside {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.bf_cadastro {
+    border: #ffffff 2px solid;
+    width: 450px;
+    height: 450px;
+}
+.cadastro_title {
+    padding: 40px;
+    font-size: 22px;
+    text-align: center;
+
+}
+.cadastro_inputs {
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;   
+}
+.inputs {
+    
+    border-bottom: #ffffff solid 2px;
+    margin-bottom: 50px;
+}
+.inputs input {
+    background-color: #000000;
+    padding-bottom: 5px;
+    color: #ffffff;
+    font-size: 16;
+    outline: none;
+    width: 350px; ;
+}
+.inputcenter {
+    justify-content: center;
+    display: flex;
+}
+.inputcenter input{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+form button {
+    margin-top: 30px;
+    padding: 20px;
+    color: #000000;
+    background-color: #ffffff;
+    width: 150px;
+}
+
